@@ -6,5 +6,5 @@ for (var t = 0; t < tempoFilme; t++) {
         console.clear();
         console.log("Assistindo filme 60 segunos... Ainda faltam [" + (tempoFilme - inicioFilme) + "] segundos,");
         inicioFilme++;
-    },t*1000)
+    },t*1000);
 }
